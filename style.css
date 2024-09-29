@@ -544,24 +544,12 @@ body {
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 512px;
-  height: 512px;
+  width: 512px; /* Adjust to fit your image size */
+  height: 512px; /* Adjust to fit your image size */
   margin-left: -256px;
   margin-top: -256px;
-  -webkit-perspective-origin: 50% 50%;
-  -moz-perspective-origin: 50% 50%;
-  -ms-perspective-origin: 50% 50%;
-  -o-perspective-origin: 50% 50%;
-  perspective-origin: 50% 50%;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  -o-transform-style: preserve-3d;
+  perspective: 1500px; /* Adjust perspective to make the cube more visible */
   transform-style: preserve-3d;
-  -webkit-animation: rotatingY 40s linear infinite;
-  -moz-animation: rotatingY 40s linear infinite;
-  -ms-animation: rotatingY 40s linear infinite;
-  -o-animation: rotatingY 40s linear infinite;
   animation: rotatingY 40s linear infinite;
 }
 .skybox.cube var.scale {
@@ -594,16 +582,10 @@ body {
 }
 .skybox.cube .face {
   position: absolute;
-  left: 50%;
-  top: 50%;
   width: 512px;
   height: 512px;
-  margin-left: -256px;
-  margin-top: -256px;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
+  background-size: cover;
+  background-position: center;
   backface-visibility: hidden;
 }
 .skybox.cube .face.front {
@@ -822,18 +804,3 @@ body {
   height: 0;
   width: 0;
 }
-
-.center-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      position: absolute;
-      width: 100%;
-      z-index: 1; /* Place the image in the background */
-    }
-
-    .center-container img {
-      max-width: 100%;
-      max-height: 100%;
-    }
