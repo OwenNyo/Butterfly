@@ -612,7 +612,7 @@ body {
   -ms-transform: rotateY(0deg) translateZ(-256px);
   -o-transform: rotateY(0deg) translateZ(-256px);
   transform: rotateY(0deg) translateZ(-256px);
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78881/clouds_front.jpg");
+  background-image: url("https://images7.alphacoders.com/130/1303564.jpg");
 }
 .skybox.cube .face.back {
   -webkit-transform: rotateY(180deg) translateZ(-256px);
@@ -620,7 +620,7 @@ body {
   -ms-transform: rotateY(180deg) translateZ(-256px);
   -o-transform: rotateY(180deg) translateZ(-256px);
   transform: rotateY(180deg) translateZ(-256px);
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78881/clouds_back.jpg");
+  background-image: url("https://images7.alphacoders.com/130/1303564.jpg");
 }
 .skybox.cube .face.right {
   -webkit-transform: rotateY(-90deg) translateZ(-256px);
@@ -628,7 +628,7 @@ body {
   -ms-transform: rotateY(-90deg) translateZ(-256px);
   -o-transform: rotateY(-90deg) translateZ(-256px);
   transform: rotateY(-90deg) translateZ(-256px);
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78881/clouds_right.jpg");
+  background-image: url("https://images7.alphacoders.com/130/1303564.jpg");
 }
 .skybox.cube .face.left {
   -webkit-transform: rotateY(90deg) translateZ(-256px);
@@ -636,7 +636,7 @@ body {
   -ms-transform: rotateY(90deg) translateZ(-256px);
   -o-transform: rotateY(90deg) translateZ(-256px);
   transform: rotateY(90deg) translateZ(-256px);
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78881/clouds_left.jpg");
+  background-image: url("https://images7.alphacoders.com/130/1303564.jpg");
 }
 .skybox.cube .face.top {
   -webkit-transform: rotateX(-90deg) translateZ(-256px);
@@ -644,7 +644,7 @@ body {
   -ms-transform: rotateX(-90deg) translateZ(-256px);
   -o-transform: rotateX(-90deg) translateZ(-256px);
   transform: rotateX(-90deg) translateZ(-256px);
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78881/clouds_top.jpg");
+  background-image: url("https://images7.alphacoders.com/130/1303564.jpg");
 }
 .skybox.cube .face.bottom {
   -webkit-transform: rotateX(90deg) translateZ(-256px);
@@ -652,7 +652,7 @@ body {
   -ms-transform: rotateX(90deg) translateZ(-256px);
   -o-transform: rotateX(90deg) translateZ(-256px);
   transform: rotateX(90deg) translateZ(-256px);
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78881/hazy_lake_top.jpg");
+  background-image: url("https://images7.alphacoders.com/130/1303564.jpg");
   background: none;
 }
 
